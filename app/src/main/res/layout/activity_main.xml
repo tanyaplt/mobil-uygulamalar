@@ -10,28 +10,21 @@
     tools:context=".MainActivity">
 
 
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-        <include
-            layout="@layout/app_bar_main"
+        <include layout="@layout/app_bar_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </FrameLayout>
+
 
     <com.google.android.material.navigation.NavigationView
-        android:layout_width="280dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/nav_view"
         android:layout_gravity="start"
 
-        android:background="@android:color/holo_blue_bright"
+        android:background="@android:color/black"
         android:fitsSystemWindows="true"
-        android:theme="@style/Widget.Material3.NavigationView"
+        android:theme="@style/NavigationView"
         app:headerLayout="@layout/nav_header_main"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"

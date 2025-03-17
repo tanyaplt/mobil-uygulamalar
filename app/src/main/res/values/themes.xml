@@ -15,19 +15,20 @@
     <item name="android:textColorSecondary">@color/white</item>
    </style>
 
-    <Style name="NavigationView">
+    <style name="NavigationView">
+        <item name= "android:listDivider"
 
-        <item name="android:ListDivider">@color/white</item>
+
         <item name="android:textColorSecondary">@color/white</item>
-    </Style>
+    </style>
 
-    <Style name="ToolBarStyle" parent ="Theme.AppCompat">
+    <style name="ToolBarStyle" parent ="Theme.AppCompat">
 
         <item name="android:textColorPrimary">android:@color/white</item>
         <item name="android:textColorSecondary">android:@color/white</item>
-        <item name="actionMenuTextColorSecondary">android:@color/white</item>
 
-    </Style>
+
+    </style>
 
 
 </resources>
