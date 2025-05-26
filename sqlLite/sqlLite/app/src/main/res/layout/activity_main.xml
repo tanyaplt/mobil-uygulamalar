@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Ad"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextYas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yas"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextSehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sehir"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="217dp"
+        />
+
+    <Button
+        android:id="@+id/buttonKayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ekle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/buttonGoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıtları Goster"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/buttonSil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Sil"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Guncelle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/textViewBilgiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+
+</LinearLayout>
